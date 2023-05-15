@@ -1,0 +1,7 @@
+v: 0
+icon: ./images/kanbbom-logo.png
+micros:
+  - name: api
+    src: ./app
+    engine: python3.9
+    primary: true
