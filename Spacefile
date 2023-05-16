@@ -2,7 +2,7 @@ v: 0
 # icon: ./images/kanboom-logo.png
 micros:
   - name: api
-    src: ./app
+    src: .
     engine: python3.9
     primary: true
     run: uvicorn main:app
