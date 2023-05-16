@@ -1,9 +1,9 @@
 v: 0
-icon: ./images/kanbbom-logo.png
+icon: ./images/kanboom-logo.jpg
 micros:
   - name: api
     src: ./app
     engine: python3.9
     primary: true
     run: uvicorn main:app
-    dev: uvicorn main:app --host 0.0.0.0 --port 8080
+    dev: uvicorn main:app --host 0.0.0.0
