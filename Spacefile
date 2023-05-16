@@ -1,5 +1,5 @@
 v: 0
-icon: ./images/kanboom-logo.jpg
+# icon: ./images/kanboom-logo.png
 micros:
   - name: api
     src: ./app
@@ -7,3 +7,5 @@ micros:
     primary: true
     run: uvicorn main:app
     dev: uvicorn main:app --host 0.0.0.0
+    public_routes:
+      - "/*"
