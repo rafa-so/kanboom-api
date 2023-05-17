@@ -1,0 +1,14 @@
+version: "3"
+services:
+  api:
+    container_name: "kanboom-container"
+    build: .
+    volumes:
+      - "./app:/code"
+    networks:
+      - mynetwork
+    ports:
+      - "80:8000"
+networks:
+  mynetwork:
+    driver: bridge
